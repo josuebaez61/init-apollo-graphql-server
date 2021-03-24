@@ -1,0 +1,8 @@
+type Query {
+    hello: String,
+    users: [User]
+}
+
+type Mutations {
+    createUser(input: createUserInput!): User!
+}

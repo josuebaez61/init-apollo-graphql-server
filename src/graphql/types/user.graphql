@@ -1,0 +1,9 @@
+type User {
+    name: String,
+    age: Int
+}
+
+input createUserInput {
+    name: String,
+    age: Int
+}
